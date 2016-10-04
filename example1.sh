@@ -1,11 +1,5 @@
 trate the use of Bash arrays.
 
-my_array=(aaa bbb ccc ddd 'Jerry Q. Hacker')
-echo 'Array position 0:' ${my_array[0]}
-echo 'Array position 1:' ${my_array[1]}
-echo 'Array position 2:' ${my_array[2]}
-echo 'Array position 3:' ${my_array[3]}
-echo 'Array position 4:' ${my_array[4]}
 
 echo Reassigning index position 2
 my_array[2]='REASSIGNED!'
